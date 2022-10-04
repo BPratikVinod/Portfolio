@@ -1,0 +1,72 @@
+.main {
+  background-color: black;
+}
+
+header {
+  text-align: center;
+  padding: 60px;
+  background-color: skyblue;
+}
+
+body {
+  margin: 0px;
+  font-size: 30px;
+  font-family: arial, sans-serif;
+}
+
+nav {
+  overflow: hidden;
+  background-color: lightpink;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 13px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: #ddd;
+  background-color: black;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.resume {
+  float: right;
+  border-radius: 3px;
+}
+
+.image {
+  padding: 30px;
+}
+
+.icon,
+.connect {
+  text-align: center;
+  color: #ffffe0;
+}
+
+footer {
+  background-color: rgb(144, 211, 238);
+  overflow: hidden;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  float: left;
+  color: white;
+}
+footer a:hover {
+  color: rgb(47, 16, 16);
+  background-color: rgb(116, 233, 96);
+}
